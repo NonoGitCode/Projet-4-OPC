@@ -684,7 +684,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -810,7 +810,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -946,15 +946,8 @@ h4 {
     width: 200px;
     
 }
-.citation3{
-    font-style: italic;
-    font-weight: 500;
-    padding: 10px 10px 0px 10px;
-    margin-bottom: 2px;
-}
-.citation4{
-    margin-top: 3px;
-}
+
+
 .col-sm-4>ul{
     list-style-type: none;
 }
@@ -969,6 +962,16 @@ html{
 .navbar-nav{
     display: flex;
     flex-direction: row;
+}
+.portfolio-thumb{
+    margin: auto;
+}
+.foot>ul>li>a{
+    margin-left: -40px;
+}
+.foot-title{
+    font-weight: bold;
+    font-size: 15px;
 }
 @media (max-width: 400px) {
     .bloc {
@@ -1002,9 +1005,6 @@ html{
     .foot{
         margin: auto;
         max-width: 200px;
-    }
-    .foot>ul>li>a{
-        margin-left: -25px;
     }
     .row-no-gutters{
         display: flex;
