@@ -4248,9 +4248,7 @@ input[type=submit].btn-block {
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
+
 
 .collapse.in {
     display: block
@@ -4844,7 +4842,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
 }
 
 .nav>li>a:focus,
